@@ -4,11 +4,11 @@
 
 
 /* Dependencies */
+import fs from 'node:fs';
+import path from 'node:path';
 import handlebars from 'handlebars';
 import Interface from '@sapling/sapling/drivers/render/Interface.js';
 
-import fs from 'fs';
-import path from 'path';
 
 import SaplingError from '@sapling/sapling/lib/SaplingError.js';
 
@@ -42,7 +42,7 @@ export default class Handlebars extends Interface {
 		} catch (error) {
 			return new SaplingError(error);
 		}
-		
+
 		return rendered(data);
 	}
 
