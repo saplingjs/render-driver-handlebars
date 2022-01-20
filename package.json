@@ -23,7 +23,7 @@
     "path": "^0.12.7"
   },
   "devDependencies": {
-    "@babel/core": "^7.16.7",
+    "@babel/core": "^7.16.10",
     "@babel/eslint-parser": "^7.16.5",
     "ava": "^4.0.1",
     "husky": "^7.0.0",
